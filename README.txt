@@ -12,9 +12,11 @@ Installation
 ============
 
 MYSQL Database structure:
-will follow soon
+install the database by running the SQL query in MYSQL-DB.sql
 
-I know its cumbersome but currently the MYSQL DB details have to be manually added in most PHP source files
+
+I know its cumbersome but currently the MYSQL DB connection details 
+have to be manually added in most PHP source files. Maybe someone can streamline that as contribution.
 
 
 
