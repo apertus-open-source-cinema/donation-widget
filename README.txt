@@ -15,9 +15,9 @@ MYSQL Database structure:
 install the database by running the SQL query in MYSQL-DB.sql
 
 
-I know its cumbersome but currently the MYSQL DB connection details 
-have to be manually added in most PHP source files. Maybe someone can streamline that as contribution.
+I know its cumbersome but currently the MYSQL DB connection details have to be manually added in most PHP source files. Maybe someone can streamline that as contribution.
 
+Please use only the 1.7.2 version of Jquery/JqueryUI as older or newer versions are known to break certain functions used on the donation page.
 
 
 External Classes
