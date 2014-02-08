@@ -20,7 +20,7 @@ I know its cumbersome but currently the MYSQL DB connection details have to be m
 Please use only the 1.7.2 version of Jquery/JqueryUI as older or newer versions are known to break certain functions used on the donation page.
 
 
-External Classes
+External Classes (already prepacked with this repository)
 ===============
 
 -) PayPal IPN Listener PHP class by https://github.com/Quixotix/PHP-PayPal-IPN

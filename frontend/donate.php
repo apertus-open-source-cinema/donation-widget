@@ -304,7 +304,7 @@ $target_hollywood = 5000;
 			<li>your nickname will be displayed together with donation amount in donator list</li>
 			<li>leave blank if you don't want to be listed</li>
 			<li>use "@" at beginning for twitter nickname - will link to your twitter profile automatically</li>
-			<li>if you are a Gold or Silver donator please email logo/website URL to donate [at] apertus [dot] org or we will get in touch with you via the email address you provided</li>
+			<li>if you are a Gold or Silver donator please email logo/website URL to *email-removed* or we will get in touch with you via the email address you provided</li>
 		</ul>
 
 		<div class="bignumber">6.</div>
@@ -312,7 +312,7 @@ $target_hollywood = 5000;
 		<br />
 		<form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="paypal_form">
 			<input type="hidden" id="paypal_xclick" name="cmd" value="_xclick">
-			<input type="hidden" name="business" value="donate@apertus.org">
+			<input type="hidden" name="business" value="your_paypal@address.com">
 			<input type="hidden" name="LC" value="US">
 			<input type="hidden" name="lc" value="US">
 			<input type="hidden" name="country" value="US"> 
@@ -324,7 +324,7 @@ $target_hollywood = 5000;
 			<input type="hidden" id="p3" name="p3" value="1">
 			<input type="hidden" id="t3" name="t3" value="M">
 			<input type="hidden" name="src" value="1">
-			<input type="hidden" name="notify_url" value="http://apertus.org/donation_ipn/paypal_ipn.php">
+			<input type="hidden" name="notify_url" value="URL_TO_YOUR_IPN_FILE">
 			<input type="image" src="http://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" 
 				border="0" name="submit" alt="Donate with PayPal">
 		</form>
@@ -332,7 +332,7 @@ $target_hollywood = 5000;
 			<div class="errornotice">You did not fill out all required fields.</div>
 		</div>
 		<hr />
-		<span style="font-size:0.8em;">If there is any problem or you need assistance with the donation process please email us at: <br />donate [at] apertus [dot] org</span>
+		<span style="font-size:0.8em;">If there is any problem or you need assistance with the donation process please email us at: <br />*EMAIL-REMOVED*</span>
 	</div>
 </div>
 	<script>
@@ -965,7 +965,7 @@ $target_hollywood = 5000;
 			Donation_Amount: total_donation
 		}
 
-		/*$.post('http://www.apertus.org/donation/log_donation.php', data, function(returnedData) {
+		/*$.post('PATH_TO_log_donation.php'', data, function(returnedData) {
 			//$("#paypal_form").submit(true);
 		});*/
 		

@@ -314,7 +314,7 @@ $target_hollywood = 5000;
 		<br />
 		<form name="_xclick" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal_form">
 			<input type="hidden" id="paypal_xclick" name="cmd" value="_xclick">
-			<input type="hidden" name="business" value="seller_1348558722_biz@gmail.com">
+			<input type="hidden" name="business" value="your_sandbox_paypal_account@paypal.com">
 			<input type="hidden" name="LC" value="US">
 			<input type="hidden" name="lc" value="US">
 			<input type="hidden" name="country" value="US"> 
@@ -326,7 +326,7 @@ $target_hollywood = 5000;
 			<input type="hidden" id="p3" name="p3" value="1">
 			<input type="hidden" id="t3" name="t3" value="M">
 			<input type="hidden" name="src" value="1">
-			<input type="hidden" name="notify_url" value="http://apertus.org/donation_ipn/paypal_ipn_sandbox.php">
+			<input type="hidden" name="notify_url" value="URL_OF_YOUR_paypal_ipn_sandbox.php">
 			<input type="image" src="http://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" 
 				border="0" name="submit" alt="Donate with PayPal">
 		</form>
@@ -965,7 +965,7 @@ $target_hollywood = 5000;
 			Donation_Amount: total_donation
 		}
 
-		$.post('http://www.apertus.org/donation/log_donation.php', data, function(returnedData) {
+		$.post('PATH_TO_log_donation.php', data, function(returnedData) {
 			//$("#paypal_form").submit(true);
 		});
 		
